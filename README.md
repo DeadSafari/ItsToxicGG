@@ -50,7 +50,7 @@ class ItsToxicGG extends ProfileBase{
    public $register = "register, $name, $gmail, $discord, $favsong, $languages";
    public $staff = "james, david, kay, lee, jordon";
    public $error21 = "{RED} Error code: 21, This is caused of bad connection to the server!";
-   public $error136 = "{RED} Error code: 136, This is caused because your profile is not yet done!"
+   public $error136 = "{RED} Error code: 136, This is caused because your profile is not yet done!";
    
    public function profilesend(){
        echo "im $name";
@@ -68,7 +68,7 @@ class ItsToxicGG extends ProfileBase{
         $this->registerProfile($name, $password, $gmail);
         $name = " ";
         $password = " ";
-        $email = "@waitingfornewprofile.com"
+        $email = "@waitingfornewprofile.com";
     }
     
     public function restoreDeleteProfile(Restore $restore): void{
@@ -76,7 +76,7 @@ class ItsToxicGG extends ProfileBase{
     }
     
     public function restoreDeleteProfileS($error){
-        echo "$error, pls report this error code to the $staff"
+        echo "$error, pls report this error code to the $staff";
 }
 
 ```
